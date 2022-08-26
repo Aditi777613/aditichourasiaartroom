@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ADITI CHOURASIA's ART ROOM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+<style>
+body {font-family: "Raleway", Arial, sans-serif}
+.w3-row img {margin-bottom: -8px}
+</style>
+</head>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+  <!-- Header -->
+  <header class="w3-container w3-xlarge w3-padding-24">
+    <a href="#" class="w3-left w3-button w3-white">MY ART</a>
+    <a href="#about" class="w3-right w3-button w3-white">About</a>
+  </header>
+
+  <!-- Photo Grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <img src="https://lh3.googleusercontent.com/sIPMLXaVIsEiQPby5PnZwSFRKfPsN7MPZEiebzVJZsqlvwlLBnXRqrTzyxl_cD64TVdrWvITl__dZMDKMoawZiY_9uOGY59FQKj5lqdHFk1AjIU0qr8mitA_iTglWPBaMLQySO5MXY4=w2400" style="width:100%">
+      <img src="https://lh3.googleusercontent.com/fzmlxrglO_ebBNfxrhhafsGaRzHm9dhDkOg6EVeFRWweZ32ZfrqsMWjMsnEJtyTcD7VB0wJ9nsIEnIG53j6YNcVMcI6y5YAzCI5efQRnOv4hoAUWVMl9oc6rpJMRintQhdAIfKAD-M4=w2400" style="width:100%">
+    </div>
+
+    <div class="w3-half">
+      <img src="https://lh3.googleusercontent.com/_jHajjCLzIiQQ_RAMrk1YZyPjIDIsNSpxUMggvf6RK_ntVPtTdLv5CVQ4mMW7d6Ns232LTXLX9bzEn1nmtR9REvkMbjp8bikRHBJHaHsGy7Sk1w8pYJe3BMO2L_9PksXZxzg38UJK-Q=w2400" style="width:100%">
+      <img src="https://lh3.googleusercontent.com/VtzLD8sEsJpMxump9l80NuD031ceHO0D4jS03lfB5aJ1-ejs8ugw2RjQ_Ovxfd2HgTLPFFknTzybW47PDciBxZHxoq9bByyUVhV_8aSASelUqKAjJL20u8x0VLa6DIKtp_BAnBbSNrk=w2400" style="width:100%">
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer / About Section -->
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+  <h2>About</h2>
+  <img src="https://lh3.googleusercontent.com/_OOuvBDZwMvBilBwyIGoqA7hADOU05_T1XlyZSF9VoA_d-sQ0UMo-lEdiMyKVwAA6w6c1mSdk4nRVau51-MzVI9Sa7Or98UmlfOmIc30e7wej1sMPZQJeo-DOBwMCVvGJPh3GMsiAAA=w2400" class="w3-image w3-padding-32" width="300" height="300">
+  <img src="https://lh3.googleusercontent.com/a2-R32Ne7gIZ-z1h2kxESIlhY9JN96hjd-1OYpXq7wFt6V536GiLDAKMW_hLRXxk1pw0Q_iSVTKpDbAJUyrPhnKdebYCC4WsBLzK4KKfPKRzkkAjriAXeAlFfDlW1cVd8Yn5pLp-W7U=w2400" class="w3-image w3-padding-32" width="300" height="300">
+  <img src="https://lh3.googleusercontent.com/tcTNONkgYOrqFIXdX5AARUBoKlWK4hZOEfdEika7U5nMKHk1WfBCRfLlEo2iLf7QCDmKoxJ10CyZTXMWRq_UktbF77BdHvyKbRVwTUFVNlHFmgicHcOI6ckV4yCRU3GWY-4T3yT-Im0=w2400" class="w3-image w3-padding-32" width="220" height="220">
+  <img src="https://lh3.googleusercontent.com/7MkzGUjs9SDQNeP1gkoOeIOg8wKjmdGfZsCxkPcVtL41_Aw8T6s9sTpbIeyLt1zgN-jgeXAmxQIpiXQJtiG_IBdyY4xLW9WJMkRSJ7CwH9By1i9wj2NGeT11fMGPjHBwo3dBTUDW0UU=w2400" class="w3-image w3-padding-32" width="370" height="370">
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love, a brain of creativity and artistic ability in my hands!!
+    I believe all colors have their own unique texture, just like that every human too have their unique persoanlity and ideas!!
+    Let's create a beautiful world with our creativity and spread love💜!!</p>
+    <p class="w3-large w3-text-pink">Do not hesitate to contact me!</p>
+    <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label><b>Message</b></label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+  </form>
+  <br>
+  <p>Powered by aditi chourasia</a></p>
+</footer>
+ 
+</body>
+</html>
